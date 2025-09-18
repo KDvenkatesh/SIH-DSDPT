@@ -7,15 +7,7 @@ export function TopBanner() {
         <div className="flex items-center space-x-2">
           <AlertTriangle className="h-5 w-5 flex-shrink-0" />
           <span className="font-medium text-sm sm:text-base text-black">
-            Check out the{" "}
-            <a
-              target="blank"
-              href="https://learn.aptoslabs.com/en/dapp-templates/boilerplate-template"
-              style={{ color: "white", textDecoration: "underline" }}
-            >
-              template docs
-            </a>
-            {" "}to get started.
+            {/* Removed all template docs and links */}
           </span>
         </div>
         <div className="ml-4 flex-shrink-0"></div>
